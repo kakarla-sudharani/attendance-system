@@ -1,0 +1,9 @@
+PORT=5001
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+DB_NAME=attendance_system_db_2
+JWT_SECRET=change_this_to_any_long_random_text
+# Login after this time (24h) is "late" and needs a reason
+LATE_THRESHOLD_HOUR=9
+LATE_THRESHOLD_MINUTE=30
